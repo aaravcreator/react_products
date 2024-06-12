@@ -1,0 +1,85 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.game{
+  padding:30px;
+  border-radius: 10px;
+  border:1px solid green;
+  margin:10px;
+}
+.disabled{
+  display: none;
+}
+.specialgame{
+  background-color: green;
+}
+
+.mydiv{
+  background-color: #ba1515;
+  color:white;
+  padding:10px;
+  margin:10px;
+  border-radius: 10px;
+}
+.mydiv:hover{
+  background-color: #ff0000;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 16px;
+}
