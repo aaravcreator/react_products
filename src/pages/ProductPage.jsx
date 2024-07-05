@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
+const myKey = import.meta.env.VITE_MERO_KEY
 
+console.log(myKey)
 const ProductPage = () => {
 
     const [products,setProducts] = useState([])
